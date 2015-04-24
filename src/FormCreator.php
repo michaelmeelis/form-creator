@@ -1,10 +1,10 @@
 <?php
 
-namespace BeFriends\Admin\FormCreator;
+namespace michaelmeelis\FormCreator;
 
-use BeFriends\Admin\Adapters\AdapterInterface;
-use BeFriends\Admin\FormCreator\FormModels\BaseFormModel;
-use BeFriends\Admin\FormCreator\FormViews\ViewAdapter;
+use michaelmeelis\Adapters\AdapterInterface;
+use michaelmeelis\FormCreator\FormModels\BaseFormModel;
+use michaelmeelis\FormCreator\FormViews\ViewAdapter;
 
 class FormCreator
 {

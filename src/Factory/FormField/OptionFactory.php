@@ -1,10 +1,10 @@
 <?php
 
-namespace BeFriends\Admin\FormCreator\Factory\FormField;
+namespace michaelmeelis\FormCreator\Factory\FormField;
 
-use BeFriends\Admin\FormCreator\Factory\FormField\Options\NullOption;
-use BeFriends\Admin\FormCreator\Factory\FormField\Options\BaseOption;
-use BeFriends\Admin\FormCreator\Models\FormField;
+use michaelmeelis\FormCreator\Factory\FormField\Options\NullOption;
+use michaelmeelis\FormCreator\Factory\FormField\Options\BaseOption;
+use michaelmeelis\FormCreator\Models\FormField;
 
 class OptionFactory
 {

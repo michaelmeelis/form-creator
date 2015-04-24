@@ -1,10 +1,10 @@
 <?php
 
-namespace BeFriends\Admin\FormCreator\Factory\FormFieldCollection;
+namespace michaelmeelis\FormCreator\Factory\FormFieldCollection;
 
-use BeFriends\Admin\FormCreator\Collections\FormFieldCollection;
-use BeFriends\Admin\FormCreator\Factory\FormField\Options\BaseOption;
-use BeFriends\Admin\FormCreator\Factory\FormFieldCollection\Adapters\BaseAdapter;
+use michaelmeelis\FormCreator\Collections\FormFieldCollection;
+use michaelmeelis\FormCreator\Factory\FormField\Options\BaseOption;
+use michaelmeelis\FormCreator\Factory\FormFieldCollection\Adapters\BaseAdapter;
 
 class FieldCollectionFactory
 {

@@ -6,7 +6,7 @@
  * Time: 19:24
  */
 
-namespace BeFriends\Admin\FormCreator\Helpers;
+namespace michaelmeelis\FormCreator\Helpers;
 
 
 class SettingsHelper

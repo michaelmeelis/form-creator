@@ -1,10 +1,10 @@
 <?php
 
-namespace BeFriends\Admin\FormCreator\Factory\FormFieldCollection\Adapters;
+namespace michaelmeelis\FormCreator\Factory\FormFieldCollection\Adapters;
 
-use BeFriends\Admin\FormCreator\Factory\FormField\Options\ModelOption;
-use BeFriends\Admin\FormCreator\Factory\FormField\Options\ModelSelectionOption;
-use BeFriends\Admin\FormCreator\Factory\FormField\Options\RelatedTableOption;
+use michaelmeelis\FormCreator\Factory\FormField\Options\ModelOption;
+use michaelmeelis\FormCreator\Factory\FormField\Options\ModelSelectionOption;
+use michaelmeelis\FormCreator\Factory\FormField\Options\RelatedTableOption;
 use michaelmeelis\DocBlockModelParser\Collections\PropertyCollection;
 use michaelmeelis\DocBlockModelParser\Factory\PropertyFactory;
 use phpDocumentor\Reflection\DocBlock;

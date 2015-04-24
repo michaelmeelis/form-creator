@@ -1,9 +1,9 @@
 <?php
 
-namespace BeFriends\Admin\FormCreator\Factory\FormFieldCollection\Adapters;
+namespace michaelmeelis\FormCreator\Factory\FormFieldCollection\Adapters;
 
 
-use BeFriends\Admin\FormCreator\Models\FormField;
+use michaelmeelis\FormCreator\Models\FormField;
 
 class NullAdapter extends BaseAdapter
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace BeFriends\Admin\FormCreator\Factory\FormField\Options;
+namespace michaelmeelis\FormCreator\Factory\FormField\Options;
 
-use BeFriends\Admin\FormCreator\Models\FormField;
-use BeFriends\Admin\FormCreator\Models\SelectFormField;
+use michaelmeelis\FormCreator\Models\FormField;
+use michaelmeelis\FormCreator\Models\SelectFormField;
 
 class ModelSelectionOption extends BaseOption
 {

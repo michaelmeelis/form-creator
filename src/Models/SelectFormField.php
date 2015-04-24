@@ -1,6 +1,6 @@
 <?php
 
-namespace BeFriends\Admin\FormCreator\Models;
+namespace michaelmeelis\FormCreator\Models;
 
 
 class SelectFormField extends FormField

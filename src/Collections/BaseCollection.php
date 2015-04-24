@@ -1,6 +1,6 @@
 <?php
 
-namespace BeFriends\Admin\FormCreator\Collections;
+namespace michaelmeelis\FormCreator\Collections;
 
 use Traversable;
 

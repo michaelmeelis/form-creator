@@ -1,9 +1,9 @@
 <?php
 
-namespace BeFriends\Admin\FormCreator\Collections;
+namespace michaelmeelis\FormCreator\Collections;
 
 
-use BeFriends\Admin\FormCreator\FormCreator;
+use michaelmeelis\FormCreator\FormCreator;
 
 class FormCreatorCollection extends BaseCollection
 {

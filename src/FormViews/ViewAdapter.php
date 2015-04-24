@@ -1,9 +1,9 @@
 <?php
 
-namespace BeFriends\Admin\FormCreator\FormViews;
+namespace michaelmeelis\FormCreator\FormViews;
 
-use BeFriends\Admin\FormCreator\FormModels\BaseFormModel;
-use BeFriends\Admin\FormCreator\Models\FormField;
+use michaelmeelis\FormCreator\FormModels\BaseFormModel;
+use michaelmeelis\FormCreator\Models\FormField;
 
 abstract class ViewAdapter
 {

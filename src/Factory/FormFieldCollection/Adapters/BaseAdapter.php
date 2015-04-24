@@ -1,12 +1,12 @@
 <?php
 
-namespace BeFriends\Admin\FormCreator\Factory\FormFieldCollection\Adapters;
+namespace michaelmeelis\FormCreator\Factory\FormFieldCollection\Adapters;
 
-use BeFriends\Admin\FormCreator\Factory\FormField\FormFieldFactory;
+use michaelmeelis\FormCreator\Factory\FormField\FormFieldFactory;
 
 abstract class BaseAdapter
 {
-    const DEFAULT_FIELD_CLASS = 'BeFriends\Admin\FormCreator\Models\FormField';
+    const DEFAULT_FIELD_CLASS = 'michaelmeelis\FormCreator\Models\FormField';
 
     /**
      * @var FormFieldFactory

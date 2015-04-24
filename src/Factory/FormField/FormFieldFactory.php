@@ -1,15 +1,14 @@
 <?php
 
-namespace BeFriends\Admin\FormCreator\Factory\FormField;
+namespace michaelmeelis\FormCreator\Factory\FormField;
 
-use BeFriends\Admin\FormCreator\Factory\Helpers\OptionHandler;
-use BeFriends\Admin\FormCreator\Factory\FormField\Options\BaseOption;
-use BeFriends\Admin\FormCreator\Helpers\PropertyHelper;
-use BeFriends\Admin\FormCreator\Models\FormField;
+use michaelmeelis\FormCreator\Factory\FormField\Options\BaseOption;
+use michaelmeelis\FormCreator\Helpers\PropertyHelper;
+use michaelmeelis\FormCreator\Models\FormField;
 
 class FormFieldFactory
 {
-    const DEFAULT_FORM_FIELD_MODEL = 'BeFriends\Admin\FormCreator\Models\FormField';
+    const DEFAULT_FORM_FIELD_MODEL = 'michaelmeelis\FormCreator\Models\FormField';
     /**
      * @var BaseOption[]
      */
@@ -18,9 +17,9 @@ class FormFieldFactory
     private $settings;
 
     private $fieldTypeToModel = [
-        'select' => 'BeFriends\Admin\FormCreator\Models\SelectFormField',
-        'checkbox' => 'BeFriends\Admin\FormCreator\Models\SelectFormField',
-        'Carbon' => 'BeFriends\Admin\FormCreator\Models\FormField',
+        'select' => 'michaelmeelis\FormCreator\Models\SelectFormField',
+        'checkbox' => 'michaelmeelis\FormCreator\Models\SelectFormField',
+        'Carbon' => 'michaelmeelis\FormCreator\Models\FormField',
     ];
     
     /**
@@ -68,11 +67,16 @@ class FormFieldFactory
         return $options;
     }
 
+    /**
+     * @param $type
+     * @return string
+     * @todo laravel specific function class_basename
+     */
     private function getFieldClassName($type)
     {
-        $className = class_basename($this->formFieldValue);
+        $className = substr($this->formFieldValue, strrpos($this->formFieldValue, '\\')+1);
         if ($this->hasModelOption()) {
-            return 'BeFriends\Admin\FormCreator\Models\SelectFormField';
+            return 'michaelmeelis\FormCreator\Models\SelectFormField';
         }
         if (isset($this->fieldTypeToModel[$type]) && !isset($this->fieldTypeToModel[$className])) {
             return $this->fieldTypeToModel[$type];
@@ -93,7 +97,8 @@ class FormFieldFactory
     private function hasModelOption()
     {
         foreach ($this->options as $option) {
-            if (class_basename($option) == 'ModelOption') {
+            $baseNameOption = substr($option, strrpos($option, '\\')+1);
+            if ($baseNameOption == 'ModelOption') {
                 return true;
             }
         }

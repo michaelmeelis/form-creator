@@ -1,10 +1,10 @@
 <?php
 
-namespace BeFriends\Admin\FormCreator\Factory\FormFieldCollection;
+namespace michaelmeelis\FormCreator\Factory\FormFieldCollection;
 
-use BeFriends\Admin\FormCreator\Factory\FormFieldCollection\Adapters;
-use BeFriends\Admin\FormCreator\Factory\FormFieldCollection\Adapters\BaseAdapter;
-use BeFriends\Admin\FormCreator\Factory\FormFieldCollection\Adapters\NullAdapter;
+use michaelmeelis\FormCreator\Factory\FormFieldCollection\Adapters;
+use michaelmeelis\FormCreator\Factory\FormFieldCollection\Adapters\BaseAdapter;
+use michaelmeelis\FormCreator\Factory\FormFieldCollection\Adapters\NullAdapter;
 
 class AdapterFactory
 {
@@ -69,6 +69,11 @@ class AdapterFactory
         return [];
     }
 
+    /**
+     * @param $adapterClassName
+     * @return NullAdapter
+     * @todo Laravel log function please remove
+     */
     private function createAdapter($adapterClassName)
     {
         if (class_exists($adapterClassName)) {

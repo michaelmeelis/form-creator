@@ -1,11 +1,11 @@
 <?php
 
-namespace BeFriends\Admin\FormCreator\FormModels;
+namespace michaelmeelis\FormCreator\FormModels;
 
-use BeFriends\Admin\FormCreator\Collections\FormFieldCollection;
-use BeFriends\Admin\FormCreator\Factory\FormField\Options\BaseOption;
-use BeFriends\Admin\FormCreator\Factory\FormFieldCollection\Adapters\BaseAdapter;
-use BeFriends\Admin\FormCreator\Factory\FormFieldCollection\FieldCollectionFactory;
+use michaelmeelis\FormCreator\Collections\FormFieldCollection;
+use michaelmeelis\FormCreator\Factory\FormField\Options\BaseOption;
+use michaelmeelis\FormCreator\Factory\FormFieldCollection\Adapters\BaseAdapter;
+use michaelmeelis\FormCreator\Factory\FormFieldCollection\FieldCollectionFactory;
 
 abstract class BaseFormModel
 {

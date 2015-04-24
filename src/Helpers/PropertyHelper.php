@@ -1,7 +1,7 @@
 <?php
-namespace BeFriends\Admin\FormCreator\Helpers;
+namespace michaelmeelis\FormCreator\Helpers;
 
-use BeFriends\Admin\FormCreator\FormCreator;
+use michaelmeelis\FormCreator\FormCreator;
 use Carbon\Carbon;
 
 class PropertyHelper

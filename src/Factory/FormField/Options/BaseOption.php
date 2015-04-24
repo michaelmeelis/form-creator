@@ -1,15 +1,15 @@
 <?php
 
-namespace BeFriends\Admin\FormCreator\Factory\FormField\Options;
+namespace michaelmeelis\FormCreator\Factory\FormField\Options;
 
 
-use BeFriends\Admin\FormCreator\Helpers\SettingsHelper;
-use BeFriends\Admin\FormCreator\Models\FormField;
+use michaelmeelis\FormCreator\Helpers\SettingsHelper;
+use michaelmeelis\FormCreator\Models\FormField;
 
 /**
  * Class BaseOption
  * @todo replace the settings helper
- * @package BeFriends\Admin\FormCreator\Factory\FormField\Options
+ * @package michaelmeelis\FormCreator\Factory\FormField\Options
  */
 abstract class BaseOption
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace BeFriends\Admin\FormCreator\FormModels;
+namespace michaelmeelis\FormCreator\FormModels;
 
 
 interface FormModelInterface {

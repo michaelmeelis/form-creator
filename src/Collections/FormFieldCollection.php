@@ -1,7 +1,7 @@
 <?php
-namespace BeFriends\Admin\FormCreator\Collections;
+namespace michaelmeelis\FormCreator\Collections;
 
-use BeFriends\Admin\FormCreator\Models\FormField;
+use michaelmeelis\FormCreator\Models\FormField;
 
 
 class FormFieldCollection extends BaseCollection

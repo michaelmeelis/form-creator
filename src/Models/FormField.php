@@ -1,6 +1,8 @@
 <?php
 
-namespace BeFriends\Admin\FormCreator\Models;
+namespace michaelmeelis\FormCreator\Models;
+
+use michaelmeelis\FormCreator\FormModels\FormModelInterface;
 
 class FormField
 {
@@ -9,6 +11,9 @@ class FormField
     public $value;
     public $displayName;
 
+    /**
+     * @var FormModelInterface
+     */
     public $model;
     public $relatedTable;
 
@@ -32,7 +37,10 @@ class FormField
         $this->toolTip = $value;
     }
 
-    public function setModel($model)
+    /**
+     * @param FormModelInterface $model
+     */
+    public function setModel(FormModelInterface $model)
     {
         $this->model = $model;
     }

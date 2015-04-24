@@ -1,11 +1,11 @@
 <?php
 
-namespace BeFriends\Admin\FormCreator;
+namespace michaelmeelis\FormCreator;
 
 
-use BeFriends\Admin\FormCreator\Collections\FormCreatorCollection;
-use BeFriends\Admin\FormCreator\FormModels\BaseFormModel;
-use BeFriends\Admin\FormCreator\FormViews\ViewAdapter;
+use michaelmeelis\FormCreator\Collections\FormCreatorCollection;
+use michaelmeelis\FormCreator\FormModels\BaseFormModel;
+use michaelmeelis\FormCreator\FormViews\ViewAdapter;
 use michaelmeelis\DocBlockModelParser\Factory\PropertyFactory;
 
 class FormWizardCreator

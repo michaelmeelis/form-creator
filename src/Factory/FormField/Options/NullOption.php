@@ -1,14 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: michael
- * Date: 07/11/14
- * Time: 22:37
- */
 
-namespace BeFriends\Admin\FormCreator\Factory\FormField\Options;
+namespace michaelmeelis\FormCreator\Factory\FormField\Options;
 
-use BeFriends\Admin\FormCreator\Models\FormField;
+use michaelmeelis\FormCreator\Models\FormField;
 
 class NullOption extends BaseOption
 {
