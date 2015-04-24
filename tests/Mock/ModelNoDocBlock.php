@@ -2,7 +2,6 @@
 
 namespace michaelmeelis\FormCreator\tests\Mock;
 
-
 use michaelmeelis\DocBlockModelParser\Interfaces\ModelInterface;
 
 class ModelNoDocBlock implements ModelInterface

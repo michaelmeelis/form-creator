@@ -2,7 +2,8 @@
 
 namespace michaelmeelis\FormCreator\tests\Mock;
 
-use michaelmeelis\FormCreator\Interfaces\ModelInterface;
+use michaelmeelis\DocBlockModelParser\Interfaces\ModelInterface;
+
 
 /**
  * Class ModelOnlySingle

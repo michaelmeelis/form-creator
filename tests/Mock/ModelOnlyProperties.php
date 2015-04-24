@@ -2,7 +2,7 @@
 
 namespace michaelmeelis\FormCreator\tests\Mock;
 
-use michaelmeelis\FormCreator\Interfaces\ModelInterface;
+use michaelmeelis\DocBlockModelParser\Interfaces\ModelInterface;
 
 /**
  * Class ModelOnlyProperties
@@ -17,6 +17,8 @@ use michaelmeelis\FormCreator\Interfaces\ModelInterface;
  */
 class ModelOnlyProperties implements ModelInterface
 {
+    public $id = 1;
+    public $name = 'name property';
 
     /**
      * @return string    return the name of the table that is connected with the model
